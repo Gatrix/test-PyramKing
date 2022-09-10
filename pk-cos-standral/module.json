@@ -1,0 +1,69 @@
+{
+  "name": "pk-cos-standral",
+  "title": "CoS - St. Andral",
+  "description": "St. Andral",
+  "version": "2.0.0",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "author": "Pyram King",
+  "authors": [
+    {
+      "name": "Pyram King",
+      "discord": "pyramking#8270",
+      "patreon": "pyramking"
+    }
+  ],
+  "packs": [
+    {
+      "name": "maps",
+      "label": "CoS - St. Andral",
+      "path": "/packs/maps.db",
+      "entity": "Scene"
+    },
+    {
+      "name": "actors",
+      "label": "CoS - St. Andral",
+      "path": "/packs/actors.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "journals",
+      "label": "CoS - St. Andral",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "items",
+      "label": "CoS - St. Andral",
+      "path": "/packs/items.db",
+      "entity": "Item"
+    },
+    {
+      "name": "rolltables",
+      "label": "CoS - St. Andral",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable"
+    },
+    {
+      "name": "playlists",
+      "label": "CoS - St. Andral",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist"
+    }
+  ],
+  "esmodules": [
+    "./module/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "url": "https://www.patreon.com/pyramking",
+  "manifest": "https://pyramking.gitlab.io/foundry-adventure-modules/standral/l3tM3b3imt/module.json",
+  "download": "https://pyramking.gitlab.io/foundry-adventure-modules/standral/l3tM3b3imt/pk-cos-standral.zip",
+  "library": "false",
+  "manifestPlusVersion": "1.1.0"
+}
